@@ -49,12 +49,12 @@ Objective of the Person class is to create a class that holds the details of a p
 Objective of the Movie class are of following:
 
 * has a constructor which initialize  
-    1. passenger name
-    2. location
-    3. destination
-    4. distance(km)
-    5. upAndDown(Boolean)
-* it also has getUberPrice method whihc calculate the uber price in the following algorithm:
+    1. _passenger name_
+    2. _location_
+    3. _destination_
+    4. _distance(km)_
+    5. _upAndDown(Boolean)_
+* it also has getUberPrice method which calculate the uber price in the following algorithm:
 
 ````mermaid
     graph TD;
