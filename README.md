@@ -12,10 +12,10 @@ F[Create an INSTANCE of that class]-->G[Access the variables and methods \n usin
 
 using the above template 4 classes namely,
 
-1) Movie.js
-2) Circle.js
-3) Person.js
-4) Uber.js
+1. Movie.js
+2. Circle.js
+3. Person.js
+4. Uber.js
 
 has been created and attached.
 
@@ -24,9 +24,9 @@ has been created and attached.
 Objective of the Movie class are of following:
 
 * has a constructor which initializes 4 variables  
-    1) _title_
-    2) _studio_
-    3) _rating (this has a default value of "PG")_
+    1. _title_
+    2. _studio_
+    3. _rating (this has a default value of "PG")_
 * has a method getPG whose ratings are only **"PG"**
   
 ## CIRCLE 
@@ -34,8 +34,8 @@ Objective of the Movie class are of following:
 Objective of the Circle class are of following:  
 
 * has a constructor which initializes 2 variables  
-    1) _radius_
-    2) _color_
+    1. _radius_
+    2. _color_
 
 * has getters and setters for both radius and color
 * also has getArea and getCircumfrence to calculate area and circumfrence for the instance of Circle class
@@ -49,17 +49,17 @@ Objective of the Person class is to create a class that holds the details of a p
 Objective of the Movie class are of following:
 
 * has a constructor which initialize  
-    1) passenger name
-    2) location
-    3) destination
-    4) distance(km)
-    5) upAndDown(Boolean)
+    1. passenger name
+    2. location
+    3. destination
+    4. distance(km)
+    5. upAndDown(Boolean)
 * it also has getUberPrice method whihc calculate the uber price in the following algorithm:
 
 ````mermaid
     graph TD;
     A["get DISTANCE"]-->B{CHECK distance};
-    B--"distance<5"-->C[calculate price at rate of \n20 INR];
+    B--"distance<=5"-->C[calculate price at rate of \n20 INR];
     B--"distance>5"-->D[calculate price at rate of \n20 INR for first 5 km\n25 INR for rest];
     C-->E;
     D-->E{check\nUP AND DOWN};
